@@ -6,8 +6,7 @@ const numberOfOccurrences = parseInt(process.argv[2]);
 
 // Check if the argument is a valid positive integer.
 if (isNaN(numberOfOccurrences) || numberOfOccurrences <= 0) {
-  // If the argument is invalid, print the specified message.
-  console.log("");
+
 } else {
   // Otherwise, use a loop to print the message the required number of times.
   for (let i = 0; i < numberOfOccurrences; i++) {
