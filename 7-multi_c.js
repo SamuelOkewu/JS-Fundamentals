@@ -7,16 +7,10 @@ const numberOfOccurrences = parseInt(process.argv[2]);
 // Check if the argument is a valid positive integer.
 if (isNaN(numberOfOccurrences) || numberOfOccurrences <= 0) {
   // If the argument is invalid, print the specified message.
-  console.log("Missing number of occurrences");
+  console.log("");
 } else {
-  // Otherwise, use a loop to build the output string.
-  let output = "";
+  // Otherwise, use a loop to print the message the required number of times.
   for (let i = 0; i < numberOfOccurrences; i++) {
-    output += "C is fun";
-    // Add a newline character for all but the last iteration.
-    if (i < numberOfOccurrences - 1) {
-      output += "\n";
-    }
+    console.log("C is fun");
   }
-  // Use the second and final console.log to print the complete string.
-  console.log(output); -3}
+}
