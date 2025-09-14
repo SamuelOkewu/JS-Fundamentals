@@ -21,3 +21,5 @@ if (isNaN(numberOfOccurrences) || numberOfOccurrences <= 0) {
   // Use the second and final console.log to print the complete string.
   console.log(output);
 }
+console.log(-3)
+
